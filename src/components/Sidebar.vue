@@ -5,9 +5,8 @@
                 <v-list-item>
                     <v-text-field
                         flat
-                        label="Solo"
                         placeholder="Search locations"
-                        solo
+                        clearable
                         v-model="updateSearchQuery"
                     />
                 </v-list-item>
