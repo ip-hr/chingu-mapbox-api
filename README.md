@@ -1,1 +1,1 @@
-# chingu-mapbox-api
+# chingu-mapbox-api v0.1
