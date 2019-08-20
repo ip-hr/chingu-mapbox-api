@@ -1,7 +1,11 @@
 const express = require('express');
 const serveStatic = require("serve-static")
 const path = require('path');
-app = express();
-app.use(serveStatic(path.join(__dirname, 'dist')));
+
 const port = process.env.PORT || 3000;
-app.listen(port);
+
+const app = express();
+app.use(serveStatic(path.join(__dirname, 'dist')));
+app.listen(port, function () {
+    console.log('App started at port ', this.address().port);
+});
