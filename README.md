@@ -2,6 +2,15 @@
 
 Chingu Mapbox api
 
+##Dependencies 
+- core-js
+- vue
+- vue-router
+- vuetify
+- vuex
+- express
+- serve-static
+
 ##Getting Started
 - Clone(fork) this repository
 - Run these following commands on your terminal/cmd prompt:
