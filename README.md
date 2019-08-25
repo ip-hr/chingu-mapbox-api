@@ -1,8 +1,8 @@
-#Project Title
+# Project Title
 
 Chingu Mapbox api
 
-##Dependencies 
+## Dependencies 
 - core-js
 - vue
 - vue-router
@@ -11,20 +11,22 @@ Chingu Mapbox api
 - express
 - serve-static
 
-##Getting Started
+## Getting Started
+
 - Clone(fork) this repository
 - Run these following commands on your terminal/cmd prompt:
-    - cd chingu-mapbox-api
-    - npm install
-    - npm run serve
-    - enter [http://localhost:3000] into your browser
+```
+    $ cd chingu-mapbox-api
+    $ npm install
+    $ npm run serve
+    $ enter [http://localhost:3000] into your browser
+```
 
-
-##Live version
+## Live version
 https://chingu-mapbox-api.herokuapp.com/
 
 
-##Contributing
+## Contributing
 1. Fork it!
 2. Create your feature branch: `git checkout -b my-new-feature`
 3. Commit your changes: `git commit -m 'Add some feature'`
